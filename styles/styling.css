@@ -1,0 +1,12 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#grid-dashboard-main {
+    background-color: var(--custom-dark-green);
+}
+
+#grid-uppernav-main {
+    background-color: var(--custom-light-green);
+    box-shadow: 10px 8px 10px lightgray;
+}
