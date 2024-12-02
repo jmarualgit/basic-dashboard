@@ -3,6 +3,11 @@ body {
     padding: 0;
 }
 
+.dashboard-icon {
+    height: 24px;
+    padding: 5px;
+}
+
 #grid-container {
     display: grid;
     height: 100vh;
@@ -24,4 +29,15 @@ body {
 
     grid-column-start: 2;
     grid-column-end: 6;
+}
+
+.grid-dashboard-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#grid-dashboard-main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
 }
