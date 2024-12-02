@@ -3,6 +3,10 @@ body {
     color: #222;
 }
 
+h5, text {
+    padding: 0px;
+}
+
 a {
     text-decoration: none;
     color: #222;
@@ -35,4 +39,33 @@ a {
 
 #dashboard-title {
     font-size: 36px;
+}
+
+.dashboard-icon {
+    height: 24px;
+    padding: 5px;
+}
+
+.contentmain-grid-item-iconlink {
+    height: 18px;
+    padding: 5px;
+}
+
+#grid-contentmain-announcementscontainer, .contentmain-grid-item, #grid-contentmain-trendingcontainer {
+    background-color: var(--custom-light-green);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 8px 10px rgb(212, 212, 212);
+}
+
+#grid-contentmain-announcementscontainer {
+    padding: 50px;
+}
+
+#grid-contentmain-trendingcontainer {
+    padding: 30px;
+}
+
+#grid-contentmain-projecttitle {
+    padding: 20px;
 }

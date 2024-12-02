@@ -3,16 +3,14 @@ body {
     padding: 0;
 }
 
-.dashboard-icon {
-    height: 24px;
-    padding: 5px;
-}
+/*************** MAIN SECTION ***************/
 
 #grid-container {
     display: grid;
-    height: 100vh;
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(5, 1fr);
+
+    height: 100vh;
 }
 
 #grid-dashboard-main {
@@ -31,6 +29,16 @@ body {
     grid-column-end: 6;
 }
 
+#grid-content-main {
+    grid-row-start: 2;
+    grid-row-end: 7;
+
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+/*************** DASHBOARD SECTION ***************/
+
 .grid-dashboard-section {
     display: flex;
     flex-direction: column;
@@ -40,4 +48,76 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 40px;
+}
+
+/*************** CONTENT SECTION ***************/
+#grid-content-main {
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+
+    column-gap: 40px;
+
+    width: 100%;
+    height: 100%;
+}
+
+#grid-contentmain-projecttitle {
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#grid-contentmain-projectcontainer {
+    grid-row-start: 2;
+    grid-row-end: 8;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#grid-contentmain-announcementstitle {
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+#grid-contentmain-announcementscontainer {
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+#grid-contentmain-trendingtitle {
+    grid-row-start: 5;
+    grid-row-end: 6;
+
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+#grid-contentmain-trendingcontainer {
+    grid-row-start: 6;
+    grid-row-end: 8;
+
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+/*************** INNER CONTENT SECTION ***************/
+#grid-contentmain-projectcontainer {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+
+    column-gap: 20px;
+    row-gap: 20px;
+    
+    padding: 20px;
 }
