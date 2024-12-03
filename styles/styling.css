@@ -58,6 +58,11 @@ a {
     box-shadow: 5px 8px 10px rgb(212, 212, 212);
 }
 
+#grid-contentmain-projecttitle, #grid-contentmain-announcementstitle, #grid-contentmain-trendingtitle {
+    display: flex;
+    align-items: end;
+}
+
 #grid-contentmain-announcementscontainer {
     padding: 50px;
 }
